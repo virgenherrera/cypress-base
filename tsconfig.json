@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowUnusedLabels": false,
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es6",
+      "es7"
+    ],
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "noImplicitAny": false,
+    "pretty": true,
+    "outDir": "./build",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "node",
+      "cypress"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
